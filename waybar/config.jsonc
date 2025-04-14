@@ -48,9 +48,9 @@
     },
     "clock": {
         "format": "  {:%H:%M}",
-        "tooltip": "  {:%d/%m/%Y}"
+        "tooltip-format": "  {:%d/%m/%Y}"
     },
-    "custom/music": {  
+    "custom/music": {
         "exec": "playerctl -p spotify metadata --format '  {{artist}} - {{title}}'",  
         "interval": 1,  
         "on-click": "playerctl -p spotify play-pause",  
