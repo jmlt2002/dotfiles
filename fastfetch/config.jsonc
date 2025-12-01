@@ -1,0 +1,54 @@
+{
+    "logo": {
+        "type": "command-raw",
+        "source": "pokemon-colorscripts -r 1-4 --no-title"
+    },
+  "display": {
+    "separator": "  "
+  },
+  "modules": [
+    "break",
+    "break",
+    {
+        "type": "os",
+        "key":  "\u001b[32m│  │\u001b[0m",
+        "format": "{pretty-name} {codename}"
+    },
+        {
+        "type": "wm",
+        "key": "\u001b[32m│  │\u001b[0m"
+    },
+    {
+        "type": "kernel",
+        "key":  "\u001b[32m│  │\u001b[0m",
+        "keyColor": "yellow"
+    },
+    {
+        "type": "uptime",
+        "key": "\u001b[32m│  │\u001b[0m",
+        "keyColor": "cyan"
+    },
+    {
+        "type": "terminal",
+        "key": "\u001b[32m│  │\u001b[0m"
+    },
+    {
+        "type": "cpu",
+        "key": "\u001b[32m│  │\u001b[0m"
+    },
+    {
+        "type": "gpu",
+        "key": "\u001b[32m│  │\u001b[0m"
+    },
+    {
+        "type": "memory",
+        "key": "\u001b[32m│  │\u001b[0m",
+        "keyColor": "white"
+    },
+    {
+        "type": "disk",
+        "key": "\u001b[32m│  │\u001b[0m"
+    },
+    "break"
+  ]
+}

@@ -28,7 +28,7 @@ window#waybar {
     background: #343434;
     border-radius: 13px;
     padding: 5px;
-    margin: 1px 5px;
+    margin: 5px 4px 0px 4px;
     padding: 0px 5px;
 }
 
@@ -37,14 +37,14 @@ window#waybar {
     background: transparent;
     color: #a89985;
     border-radius: 13px;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.1s ease-in-out;
 }
 
 #workspaces button.active {
     background: #504946;
     color: #ffffff;
     min-width: 34px;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.1s ease-in-out;
 }
 
 #workspaces button:hover {
@@ -65,6 +65,7 @@ window#waybar {
 }
 
 #custom-media {
+    color: #a89985;
     background: #343434;
     border-radius: 13px;
     padding: 0px;

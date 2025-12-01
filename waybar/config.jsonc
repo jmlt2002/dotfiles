@@ -60,7 +60,7 @@
 
   "tray": {
     "icon-size": 17,
-    "spacing": 10
+    "spacing": 5
   },
 
   "pulseaudio": {
@@ -78,13 +78,8 @@
     "format-wifi": "",
     "format-ethernet": "󰈀",
     "format-disconnected": "  Disconnected",
-    "on-click": "nmtui",
+    "on-click": "alacritty -e bash -c 'nmtui'",
     "tooltip": true
-  },
-
-  "custom/space-right": {
-    "format": "  ",
-    "tooltip": false
   },
 
   "bluetooth": {
